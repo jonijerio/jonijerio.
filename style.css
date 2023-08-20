@@ -1,0 +1,111 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  
+}
+
+.container-navbar{
+    background-color: purple;
+    width: 100% ;
+    height: 100px ;
+    height: 10%vh;
+}
+.ul-navbar{
+  display:flex ;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  .li-navbar{
+  list-style-type: none;
+  padding: 20px ;
+  margin: 5px;
+  color: white;
+  font-size: 25px;
+  }
+  
+  .li-navbar:hover{
+  background-color: red;
+  transition: .2s ease-in-out;
+  transition-delay: .3s;
+  border-radius: 8px;
+  
+  }
+
+.a-navbar{
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+
+
+.container-content {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.a-content{
+   
+    color:black;
+    text-decoration: none;
+    font-weight: 700;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+   
+    box-shadow:box-shadow: 17px 25px 32px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 17px 25px 32px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 25px 32px -7px rgba(0,0,0,0.75);;
+
+    background-color: black;
+  animation-name: example;
+  animation-duration: 10s ;
+}
+
+ 
+@keyframes example {
+  1%   {background-color: red;}
+  
+  10%  {background-color: rgb(173, 173, 17);}
+  20%  {background-color:silver;}
+  30% {background-color: green;}
+  40%   {background-color: red;}
+  50%  {background-color: rgb(136, 136, 131);}
+  60%  {background-color: blue;}
+  70% {background-color: rgb(96, 180, 96);}
+  80%  {background-color: yellow;}
+  90%  {background-color: rgb(96, 96, 118);}
+  100% {background-color: aqua;}
+  
+}
+.img-content{
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+    box-shadow:box-shadow: 17px 25px 32px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 17px 25px 32px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 25px 32px -7px rgba(0,0,0,0.75);;
+}
+
+
+
+.h1-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+h1 
+    text-shadow: 2px 2px rgb(0, 0, 0);
+  }
